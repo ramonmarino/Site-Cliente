@@ -1,0 +1,358 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Condensed:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+    align-items: baseline;
+    
+   
+
+
+
+
+}
+
+:root {
+    --cor1: #AC71ff;
+    --cor2: #C588ff;
+    --cor3: #CC9EFF;
+    --cor4: #D9BFFF;
+    --cor5: #491F73;
+    --cor6: #6C733D;
+
+}
+
+
+body {
+    background-image: url(img/WhatsApp\ Image\ 2023-07-02\ at\ 17.44.21.jpeg);
+    background-size: auto;
+    max-width:auto ;
+    min-width:350px;
+}
+
+.container {
+    
+    min-width: 400px;
+    margin: 0;
+    display: flow-root;
+    align-items: center;
+    
+    
+
+
+
+}
+
+header {
+
+    width: 100%;
+    padding: 10px;
+    max-width:auto ;
+    min-width: 350px;
+
+}
+
+.logo img {
+    width: 400px;
+    max-width:auto ;
+    min-width: 350px;
+}
+
+
+
+.menu {
+    width: 100%;
+    padding-left: 100px;
+    text-align: center;
+    display: inline-block;
+    
+    
+    
+    
+    
+    
+
+
+
+}
+
+.menu nav a {
+    color: grey;
+    padding: 10px;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    position:relative;
+    display:inline-block;
+    
+    
+   
+    
+    
+
+
+
+
+}
+
+
+.menu nav a:hover {
+    color: purple
+}
+
+.texto-auxiliar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 40px;
+    color: var(--cor5);
+    font-size: 35px;
+    text-align: left;
+    width: 80%;
+    padding-left: 20px;
+
+
+}
+
+.texto-auxiliar2 {
+    font-size: 22px;
+    text-align: left;
+    padding: 10px;
+
+
+}
+
+.botão {
+    padding-top: 15px;
+    text-align: left;
+}
+
+.botão button {
+    background-color: var(--cor6);
+    padding: 10px 20px;
+    color: aliceblue;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    margin-left: 110px;
+}
+
+.botão button:hover {
+    background-color: var(--cor5);
+}
+
+.foto-laura {
+    float: right;
+    
+}
+
+.foto-laura img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 18px #6C733D ;
+}
+
+#subtitulo-terapia {
+    margin: 0px;
+    margin-inline-end: 50px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--cor5);
+    font-size: 20px;
+    
+    align-items: center;
+    
+
+}
+
+.subtitulo-terapia h2{
+    font-size: 25px;
+    
+
+}
+
+.tudo-bloco-terapia main {
+    float: none;
+    display: inline-block;
+    padding-left: 125px;
+    
+}
+
+
+.bloco-terapia-fundo {
+    background-color: var(--cor6);
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    display: inline-table;
+    margin: 10px;
+    border-radius: 45px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Just Another Hand', cursive;
+    box-shadow: 5px 10px 18px #6C733D ;
+
+
+
+}
+
+
+.bloco-terapia-fundo h3 {
+    text-align: center;
+
+
+}
+
+.todos-paragrafos {
+    text-align: center;
+
+}
+
+
+.titulo-sessao{
+    color: var(--cor6);
+    font-size: 30px;
+    text-align: center;
+}
+
+.container-terapia{
+    background-color:#d9bfff31;
+    width: auto;
+    height: 1200px;
+}
+
+
+.terapia-conteudo{    
+    display: flow-root;
+    
+    
+
+   
+    
+}
+.bloco1{
+    background-color: var(--cor6);
+    margin:10px auto ;
+    width: 70%;
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    padding: 5px;
+    text-align: center;
+    
+    border-radius: 50px;
+   
+    
+    
+}
+
+.bloco1 p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.bloco2{
+    background-color: var(--cor6);
+    margin:10px auto;
+    width: 80%;
+    height: auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.bloco2 p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+}
+.bloco3{
+    background-color: var(--cor6);
+    margin:10px auto;
+    width: 80%;
+    height: auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+.bloco3 p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+.titulo-sobre-voce{
+    text-align: center;
+    background-color:#d9bfff31;
+    font-size: 30px;
+    color: var(--cor6);
+    
+}
+
+
+ .titulo-sobre-voce .foto-preta{
+    display: flex;
+    align-items: flex-start;
+    ;
+}
+
+ .titulo-sobre-voce .foto-preta img{
+    max-height: 600px;
+    max-width: 600px;
+    width: 50%;
+    margin-left: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 18px #6C733D ;
+    
+   
+   
+}
+
+ .titulo-sobre-voce .foto-preta p{
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+
+
+    
+    
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+    
+
+
+
